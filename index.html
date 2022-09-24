@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>1er TP Obligatorio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Codo a Codo</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Desactivado</a>
+                </li>
+              </ul>
+            </div>
+            <div id="buscador" class="d-flex justify-content-end">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Buscar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <menu class="row pe-5">
+        <div class="d-flex justify-content-center align-content-center">
+          <article class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <img
+                src="img/html5.jpeg"
+                width="100%"
+                height="250px"
+                class="card-img-top"
+                alt="html"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Titulo 1</h5>
+                <p class="card-text">Contenido de card</p>
+                <a href="!#" class="a text-decoration-none text-dark"
+                  >Ultima actualizacion</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <img
+                src="img/css3.jpeg"
+                width="100%"
+                height="250px"
+                class="card-img-top"
+                alt="css"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Titulo 2</h5>
+                <p class="card-text">Contenido de card</p>
+                <a href="!#" class="text-decoration-none text-dark"
+                  >Ultima actualizacion</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <img
+                src="img/Bootstrap.jpeg"
+                width="100%"
+                height="250px"
+                class="card-img-top"
+                alt="boostrap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Titulo 3</h5>
+                <p class="card-text">Contenido de card</p>
+                <a href="!#" class="text-decoration-none text-dark"
+                  >Ultima actualizacion</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </menu>
+
+      <section class="row">
+        <form
+          action=""
+          class="p-4 col-ms-12 col-md-12 col-lg-12 w-100"
+          id="form"
+        >
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+            <label for="exampleFormControlInput1" class="form-label"
+              >Nunca comparta su email.</label
+            >
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Contraseña</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3 d-flex">
+            <input type="checkbox" name="verificar" id="verificar" />
+            <label class="ps-2" for="verificar">Verificar</label>
+          </div>
+          <button class="btn btn-primary">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
